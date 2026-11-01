@@ -1,0 +1,25 @@
+name = "Sarafan"
+defaultTargets = ["Sarafan", "SarafanMosaic", "SarafanCheapTalk", "SarafanExact", "SarafanDisclosure", "SarafanActions"]
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4"
+rev = "v4.35.0"
+
+[[lean_lib]]
+name = "Sarafan"
+
+[[lean_lib]]
+name = "SarafanMosaic"
+
+[[lean_lib]]
+name = "SarafanCheapTalk"
+
+[[lean_lib]]
+name = "SarafanExact"
+
+[[lean_lib]]
+name = "SarafanDisclosure"
+
+[[lean_lib]]
+name = "SarafanActions"
